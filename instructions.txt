@@ -1,0 +1,6 @@
+g++:
+g++ src/Impulse.cpp src/Time.cpp -o Impulse
+
+cmake:
+cmake -S . -B ./build
+cmake --build ./build
